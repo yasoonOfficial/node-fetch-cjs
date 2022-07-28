@@ -43,7 +43,7 @@ async function main() {
   })
 
   pkg.main = "index.js"
-  pkg.name = "node-fetch-commonjs"
+  pkg.name = "@yasoonofficial/node-fetch-cjs"
   pkg.version = "3.2.4"
   pkg.type = "commonjs"
   pkg.repository.url = execSync("git config --get remote.origin.url").toString().trim()
